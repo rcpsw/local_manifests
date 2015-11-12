@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- add github as a remote source -->
+    <remote name="github" fetch="git://github.com" />
+
+    <project path="device/lge/d855" name="rcpsw/android_device_lge_d855"
+	     remote="github" revision="6.0.0_r26" /> 
+    <project path="device/lge/g3-common"
+	     name="rcpsw/android_device_lge_g3-common" remote="github"
+	     revision="6.0.0_r26" />  
+    <project path="kernel/lge/g3"
+	     name="rcpsw/android_kernel_lge_g3" remote="github"
+	     revision="6.0.0_r26" /> 
+</manifest>
